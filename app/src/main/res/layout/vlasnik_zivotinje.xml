@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/id"
+        android:textSize="60sp"
+        android:layout_margin="10dp"
+        android:text="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/imeVlasnika"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="ime"
+        app:layout_constraintStart_toEndOf="@id/id"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="wrap_content" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/prezimeVlasnika"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="prezime"
+        app:layout_constraintStart_toEndOf="@id/imeVlasnika"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="wrap_content" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/emailVlasnika"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="email"
+        app:layout_constraintStart_toEndOf="@id/prezimeVlasnika"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="wrap_content" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/imeZivotinje"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:text="ime"
+        app:layout_constraintStart_toEndOf="@id/id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="wrap_content" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/vrstaZivotinje"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:text="vrsta"
+        app:layout_constraintStart_toEndOf="@id/imeZivotinje"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="wrap_content" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/idZivotinje"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:text="id"
+        app:layout_constraintStart_toEndOf="@id/vrstaZivotinje"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
